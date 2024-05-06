@@ -299,7 +299,7 @@ fawaz {
   background-color: rgb(0, 0, 0);
 
   background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
-    linear-gradient(to right, #346e9d, #ffdd56 180%) border-box;
+    linear-gradient(to right, #346e9d45, #ffdd5652 180%) border-box;
   border-radius: 10px;
   border: 1.5px solid transparent;
 
@@ -350,12 +350,16 @@ fawaz {
 
 .projectcards {
 
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
-  top: 10%;
+  align-items: center;
+
+  height: 100vh;
+
   width: 100%;
-  row-gap: 3vh;
+  gap: 30px;
+  top: -50px;
 
 
 }
@@ -383,10 +387,47 @@ fawaz {
   -webkit-text-fill-color: transparent;
 }
 
+.card__title1 {
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+  background: rgb(43, 164, 226);
+  background: linear-gradient(90deg, rgba(43, 164, 226, 1) 0%, rgba(86, 144, 240, 1) 49%, rgb(124, 94, 234) 100%);
+  letter-spacing: 0.5px;
+  padding: 10px 30px;
+  border-radius: 9px;
+  border: transparent;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 
 
 
+
+
+
+
+}
+
+@media screen and (max-width: 1156px) {
+  .card__title1 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .card__title1 {
+    font-size: 0.6rem;
+  }
+}
 
 
 
