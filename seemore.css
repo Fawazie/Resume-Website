@@ -206,11 +206,35 @@ body {
     text-overflow: ellipsis;
 
 
+}
+
+.cardardu {
+    display: flex;
+
+
+    margin-left: 5%;
+    margin-right: 5%;
 
 
 
+    overflow: scroll;
 
 
+
+    justify-content: center;
+    align-content: center;
+
+    min-width: 90%;
+    max-height: 150px;
+
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+        linear-gradient(to right, #659ad264, #0043825b 180%) border-box;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
 
 }
 
