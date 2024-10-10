@@ -1,7 +1,7 @@
 body {
 
     background-color: #0f0f0f;
-    height: 100vh;
+    height: 130vh;
 }
 
 .middle {
@@ -52,7 +52,8 @@ body {
     align-content: center;
 
     min-width: 90%;
-    max-height: 150px;
+    /* max-height: 180px; */
+    min-height: 120px;
 
     border-radius: 8px;
     text-decoration: none;
@@ -86,7 +87,7 @@ body {
     align-content: center;
 
     min-width: 90%;
-    max-height: 150px;
+    min-height: 120px;
 
     border-radius: 8px;
     text-decoration: none;
@@ -94,6 +95,36 @@ body {
 
     background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
         linear-gradient(to right, #61dafb35, #61dafb49 180%) border-box;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+
+}
+
+.cardardu {
+    display: flex;
+
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+
+    overflow: scroll;
+
+
+
+    justify-content: center;
+    align-content: center;
+
+    min-width: 90%;
+    min-height: 120px;
+
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+        linear-gradient(to right, #659ad264, #0043825b 180%) border-box;
     border-radius: 10px;
     border: 1.5px solid transparent;
 
@@ -215,35 +246,7 @@ body {
 
 }
 
-.cardardu {
-    display: flex;
 
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-
-
-    overflow: scroll;
-
-
-
-    justify-content: center;
-    align-content: center;
-
-    min-width: 90%;
-    max-height: 150px;
-
-    border-radius: 8px;
-    text-decoration: none;
-    background-color: rgb(0, 0, 0);
-
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
-        linear-gradient(to right, #659ad264, #0043825b 180%) border-box;
-    border-radius: 10px;
-    border: 1.5px solid transparent;
-
-}
 
 @media screen and (max-width: 1156px) {
     .card__title1 {
