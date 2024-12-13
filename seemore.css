@@ -45,6 +45,9 @@ body {
 
 
     overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 
 
 
