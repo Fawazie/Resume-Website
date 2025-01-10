@@ -41,19 +41,11 @@ body {
 
     margin-left: 5%;
     margin-right: 5%;
-
-
-
     overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
-
-
-
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
     justify-content: center;
     align-content: center;
-
     min-width: 90%;
     /* max-height: 180px; */
     min-height: 120px;
@@ -66,26 +58,16 @@ body {
         linear-gradient(to right, #346e9d45, #ffdd5652 180%) border-box;
     border-radius: 10px;
     border: 1.5px solid transparent;
-
-
-
-
-
+}
+.card::-webkit-scrollbar{
+    display:none;
 }
 
 .cardbmw {
     display: flex;
-
-
     margin-left: 5%;
     margin-right: 5%;
-
-
-
     overflow: scroll;
-
-
-
     justify-content: center;
     align-content: center;
 
@@ -100,18 +82,21 @@ body {
         linear-gradient(to right, #61dafb35, #61dafb49 180%) border-box;
     border-radius: 10px;
     border: 1.5px solid transparent;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
 
+.cardbmw::-webkit-scrollbar{
+    display: none;
 }
 
 .cardardu {
     display: flex;
-
-
     margin-left: 5%;
     margin-right: 5%;
 
-
-
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
     overflow: scroll;
 
 
@@ -131,6 +116,9 @@ body {
     border-radius: 10px;
     border: 1.5px solid transparent;
 
+}
+.cardardu::-webkit-scrollbar{
+    display: none;
 }
 
 .cardardu:hover {
